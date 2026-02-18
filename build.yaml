@@ -1,4 +1,2 @@
 board: [ "nice_nano_v2" ]
-include:
-  - shield: tomato_left
-  - shield: tomato_right
+shield: [ "tomato_left", "tomato_right" ]
