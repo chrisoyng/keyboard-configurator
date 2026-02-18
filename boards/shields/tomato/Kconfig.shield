@@ -1,5 +1,5 @@
-config SHIELD_MY_KEYBOARD_LEFT
+config SHIELD_TOMATO_LEFT
     def_bool $(shields_list_contains,tomato_left)
-
-config SHIELD_MY_KEYBOARD_RIGHT
+am i s
+config SHIELD_TOMATO_RIGHT
     def_bool $(shields_list_contains,tomato_right)
