@@ -30,7 +30,7 @@
     };
 };
 
-
-
-
-
+&encoder0 {
+    gpios = <&pro_micro 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // A pin
+            <&pro_micro 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;   // B pin
+};
