@@ -16,7 +16,3 @@ config ZMK_SPLIT
 
 endif
 
-
-config ZMK_BLE_ADVERTISED_NAME
-	default "Tomato Left" if SHIELD_TOMATO_LEFT
-	default "Tomato Right" if SHIELD_TOMATO_RIGHT
