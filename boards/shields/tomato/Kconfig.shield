@@ -1,5 +1,5 @@
 config SHIELD_TOMATO_LEFT
     def_bool $(shields_list_contains,tomato_left)
-am i s
+
 config SHIELD_TOMATO_RIGHT
     def_bool $(shields_list_contains,tomato_right)
