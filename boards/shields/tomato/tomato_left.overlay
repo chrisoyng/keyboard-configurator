@@ -1,4 +1,4 @@
-
+#include "tomato.dtsi"
 
 / {
     kscan0: kscan0 {
