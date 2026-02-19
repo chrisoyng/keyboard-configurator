@@ -16,7 +16,7 @@
                 &kp LCTRL	&kp LEFT_WIN	&kp LALT	&kp SPACE	&kp SPACE	&kp SPACE	&kp F1	&kp F2	&kp F3	&kp F4	&kp N9	&kp N4	&kp N9	&kp N4	&kp N9	&kp N4	&kp N9	&kp N4	&kp N9	&kp E
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
 };
