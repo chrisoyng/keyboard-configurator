@@ -3,4 +3,3 @@ include:
     shield: tomato_left
   - board: nice_nano_v2
     shield: tomato_right
-  - board: nice_nano_v2
