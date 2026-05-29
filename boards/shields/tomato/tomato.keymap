@@ -8,14 +8,12 @@
 
 / {
     macros {
-        compatible = "zmk,behavior-macro";
-        label = "Macros";
-
         ctrl_mmb_hold: ctrl_mmb_hold {
+            compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL>
-                , <&macro_press &mkp MB3>     // MB3 = Middle Mouse Button
+                , <&macro_press &mkp MB3>
                 , <&macro_release &mkp MB3>
                 , <&macro_release &kp LCTRL>;
         };
