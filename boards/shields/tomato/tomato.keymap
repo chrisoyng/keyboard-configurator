@@ -11,9 +11,10 @@
         ctrl_mmb_hold: ctrl_mmb_hold {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LCTRL>
+            bindings =
+                <&macro_press &kp LCTRL>
                 , <&macro_press &mkp MB3>
+                , <&macro_pause_for_release>     // This makes it hold
                 , <&macro_release &mkp MB3>
                 , <&macro_release &kp LCTRL>;
         };
