@@ -27,22 +27,20 @@
         DEFAULT {
             bindings = <       
 &kp GRAVE	&kp ESCAPE	&kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&bt BT_SEL 1			&to 1	&kp Y	&kp N7	&kp N8	&kp N9	&kp N0	&kp MINUS	&kp EQUAL	&kp DELETE
-&mkp RCLK	&kp TAB	&kp Q	&kp W	&kp E	&kp R	&kp T	&kp BSPC	&to FUSION	&bt BT_SEL 2	&bt BT_CLR	&kp 3	&kp Y	&kp U	&kp I	&kp O	&kp P	&kp LBKT	&kp RBKT	&kp BSLH
+&mkp RCLK	&kp TAB	&kp Q	&kp W	&kp E	&kp R	&kp T	&kp BSPC	&to FUSION	&bt BT_SEL 2	&bt BT_CLR	&kp LC(LA(LS(F13)))	&kp Y	&kp U	&kp I	&kp O	&kp P	&kp LBKT	&kp RBKT	&kp BSLH
 &mkp MCLK	&kp SPACE	&kp A	&kp S	&kp D	&kp F	&kp G	&kp ENTER	&kp UP	&kp C_PLAY_PAUSE	&kp C_PLAY_PAUSE	&kp BSPC	&kp H	&kp J	&kp K	&kp L	&kp SEMI	&kp APOS	&kp ENTER	&kp LC(LA(LS(F1)))
 &kp CAPS	&kp LSHIFT	&kp Z	&kp X	&kp C	&kp V	&kp B	&kp LEFT	&kp DOWN	&kp RIGHT	&kp ENTER	&kp SPACE	&kp N	&kp M	&kp COMMA	&kp PERIOD	&kp SLASH	&kp LSHIFT	&kp UP	&kp LC(F2)
-&kp DELETE	&kp LCTRL	&kp LEFT_WIN	&kp LALT	&kp SPACE	&kp SPACE	&kp LC(LA(LS(F1)))	 &kp LA(TAB)	&kp LC(F2)	&kp CAPS	&kp N9 	&kp DELETE	&kp SPACE	&kp SPACE	&kp F2	&kp F4	&kp F11	&kp LEFT	&kp DOWN	&kp RIGHT
-            >;
-
+&kp DELETE	&kp LCTRL	&kp LEFT_WIN	&kp LALT	&kp SPACE	&kp SPACE	&kp LC(LA(LS(F1)))	 &kp LA(TAB)	&kp LC(F2)	&to NUMPAD	&kp N9 	&kp DELETE	&kp SPACE	&kp SPACE	&kp F2	&kp F4	&kp F11	&kp LEFT	&kp DOWN	&kp RIGHT
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
          NUMPAD {
             bindings = <       
 &kp GRAVE	&kp ESCAPE	&kp MINUS	&kp PLUS	&kp PERIOD	&kp N0	&kp N0	&to 0	&bt BT_SEL 1			&to 0	&kp Y	&kp N7	&kp N8	&kp N9	&kp N0	&kp MINUS	&kp EQUAL	&kp DELETE
-&mkp RCLK	&kp TAB	&kp N7	&kp N8	&kp N9	&kp BSPC	&kp N0	&to 1	&bt BT_CLR	&bt BT_SEL 2	&bt BT_CLR	&kp N1	&kp Y	&kp U	&kp I	&kp O	&kp P	&kp LBKT	&kp RBKT	&kp BSLH
+&mkp RCLK	&kp TAB	&kp N7	&kp N8	&kp N9	&kp BSPC	&kp N0	&to 1	&bt BT_CLR	&bt BT_SEL 2	&bt BT_CLR	&kp LC(LA(LS(F13)))	&kp Y	&kp U	&kp I	&kp O	&kp P	&kp LBKT	&kp RBKT	&kp BSLH
 &mkp MCLK	&kp ENTER	&kp N4	&kp N5	&kp N6	&kp ENTER	&kp UP	&to 2	&kp N0	&kp C_PLAY_PAUSE	&kp C_PLAY_PAUSE	&kp BSPC	&kp H	&kp J	&kp K	&kp L	&kp SEMI	&kp APOS	&kp ENTER	&kp LC(LA(LS(F1)))
 &to FUSION	&kp N0	&kp N1	&kp N2	&kp N3	&kp LEFT	&kp DOWN	&kp N0	&kp N0	&kp N0	&kp ENTER	&kp SPACE	&kp N	&kp M	&kp COMMA	&kp PERIOD	&kp SLASH	&kp LSHIFT	&kp UP	&kp LC(F2)
-&kp DELETE	&kp LCTRL	&kp LEFT_WIN	&kp LALT	&kp SPACE	&kp SPACE	&kp LC(LA(LS(F1)))	 &kp LA(TAB)	&kp LC(F2)	&kp CAPS	&kp N9 	&kp DELETE	&kp SPACE	&kp SPACE	&kp F2	&kp F4	&kp F11	&kp LEFT	&kp DOWN	&kp RIGHT
+&kp DELETE	&kp LCTRL	&kp LEFT_WIN	&kp LALT	&kp SPACE	&kp SPACE	&kp LC(LA(LS(F1)))	 &kp LA(TAB)	&kp LC(F2)	&to DEFAULT	&kp N9 	&kp DELETE	&kp SPACE	&kp SPACE	&kp F2	&kp F4	&kp F11	&kp LEFT	&kp DOWN	&kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -51,10 +49,10 @@
          FUSION {
             bindings = <       
 &kp H	&kp ESCAPE	&kp L	&kp M	&kp  I	&kp P	&kp O	&kp N6	&bt BT_SEL 1			&to 1	&kp Y	&kp N7	&kp N8	&kp N9	&kp N0	&kp MINUS	&kp EQUAL	&kp DELETE
-&mkp RCLK	&kp TAB	&kp Q	&kp W	&kp E	&kp R	&kp T	&kp BSPC	&to DEFAULT	&bt BT_SEL 2	&bt BT_CLR	&kp N1	&kp Y	&kp U	&kp I	&kp O	&kp P	&kp LBKT	&kp RBKT	&kp BSLH
+&mkp RCLK	&kp TAB	&kp Q	&kp W	&kp E	&kp R	&kp T	&kp BSPC	&to DEFAULT	&bt BT_SEL 2	&bt BT_CLR	&kp LC(LA(LS(F13)))	&kp Y	&kp U	&kp I	&kp O	&kp P	&kp LBKT	&kp RBKT	&kp BSLH
 &mkp MCLK	&kp SPACE	&kp A	&kp S	&kp D	&kp F	&kp G	&kp ENTER	&kp UP	&kp C_PLAY_PAUSE	&kp C_PLAY_PAUSE	&kp BSPC	&kp H	&kp J	&kp K	&kp L	&kp SEMI	&kp APOS	&kp ENTER	&kp LC(LA(LS(F1)))
 &to NUMPAD	&kp LSHIFT	&kp Z	&kp X	&kp C	&kp V	&kp B	&kp LEFT	&kp DOWN	&kp RIGHT	&kp ENTER	&kp SPACE	&kp N	&kp M	&kp COMMA	&kp PERIOD	&kp SLASH	&kp LSHIFT	&kp UP	&kp LC(F2)
-&kp DELETE	&kp LCTRL	&kp LEFT_WIN	&kp LALT	&kp SPACE	&kp SPACE	&kp LC(LA(LS(F1)))	 &kp LA(TAB)	&kp LC(F2)	&kp CAPS	&kp N9 	&kp DELETE	&kp SPACE	&kp SPACE	&kp F2	&kp F4	&kp F11	&kp LEFT	&kp DOWN	&kp RIGHT
+&kp DELETE	&kp LCTRL	&kp LEFT_WIN	&kp LALT	&kp SPACE	&kp SPACE	&kp LC(LA(LS(F1)))	 &kp LA(TAB)	&kp LC(F2)	&to DEFAULT	&kp N9 	&kp DELETE	&kp SPACE	&kp SPACE	&kp F2	&kp F4	&kp F11	&kp LEFT	&kp DOWN	&kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
