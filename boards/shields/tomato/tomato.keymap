@@ -31,6 +31,8 @@
 &mkp MCLK	&kp SPACE	&kp A	&kp S	&kp D	&kp F	&kp G	&kp ENTER	&kp UP	&kp C_PLAY_PAUSE	&kp C_PLAY_PAUSE	&kp BSPC	&kp H	&kp J	&kp K	&kp L	&kp SEMI	&kp APOS	&kp ENTER	&kp LC(LA(LS(F1)))
 &kp CAPS	&kp LSHIFT	&kp Z	&kp X	&kp C	&kp V	&kp B	&kp LEFT	&kp DOWN	&kp RIGHT	&kp ENTER	&kp SPACE	&kp N	&kp M	&kp COMMA	&kp PERIOD	&kp SLASH	&kp LSHIFT	&kp UP	&kp LC(F2)
 &kp DELETE	&kp LCTRL	&kp LEFT_WIN	&kp LALT	&kp SPACE	&kp SPACE	&kp LC(LA(LS(F1)))	 &kp LA(TAB)	&kp LC(F2)	&to NUMPAD	&kp N9 	&kp DELETE	&kp SPACE	&kp SPACE	&kp F2	&kp F4	&kp F11	&kp LEFT	&kp DOWN	&kp RIGHT
+           >; 
+            
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
