@@ -30,7 +30,7 @@
 &mkp RCLK &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp BSPC &bt BT_SEL 2 &bt BT_CLR &to FUSION &kp LC(LA(LS(F13))) &kp Y &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT &kp BSLH
 &mkp MCLK &kp SPACE &kp A &kp S &kp D &kp F &kp G &kp ENTER &kp UP &kp C_PLAY_PAUSE &kp 0 &kp BSPC &kp H &kp J &kp K &kp L &kp SEMI &kp APOS &kp ENTER &kp LC(LA(LS(F1)))
 &kp CAPS &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B &kp LEFT &kp DOWN &kp RIGHT &kp ENTER &kp SPACE &kp N &kp M &kp COMMA &kp PERIOD &kp SLASH &kp LSHIFT &kp F11 &kp LC(F2)
-&kp DELETE &kp LCTRL &kp LEFT_WIN &kp LALT &kp SPACE &kp SPACE &kp LC(LA(LS(F1))) &kp LC(F2) &kp LC(LS(F2))  &kp LA(TAB) &kp N9  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp LC(LA(LS(F13)))
+&kp DELETE &kp LCTRL &kp LEFT_WIN &kp LALT &kp SPACE &kp SPACE &kp LC(LA(LS(F1))) &kp LC(F2) &kp LA(TAB) &kp LC(LS(F2)) &kp N9  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp LC(LA(LS(F13)))
            >; 
             
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
