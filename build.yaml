@@ -1,5 +1,5 @@
 include:
   - board: nice_nano_v2 
-    shield: tomato
+    shield: tomato_town
   - board: nice_nano_v2
-    shield: tomato
+    shield: tomato_town
