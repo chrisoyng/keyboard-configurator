@@ -20,14 +20,17 @@
                 , <&macro_release &kp LCTRL>;
         };
 
-        shift_mclk: shift_mclk {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press &kp LSHIFT>
-                , <&macro_tap &mkp MCLK>
-                , <&macro_release &kp LSHIFT>;
+    shift_mclk: shift_mclk {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings =
+            <&macro_press &kp LSHIFT>
+            , <&macro_press &mkp MCLK>
+            , <&macro_pause_for_release>
+            , <&macro_release &mkp MCLK>
+            , <&macro_release &kp LSHIFT>;
         };
+        
     };
     keymap {
         compatible = "zmk,keymap";
