@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT 0
-#define NUMPAD 1
+#define BLEND 1
 #define FUSION 2
 
 / {
@@ -65,7 +65,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>; 
-            
+
         };
     };
 };
